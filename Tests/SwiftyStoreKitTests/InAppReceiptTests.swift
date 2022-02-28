@@ -23,6 +23,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+// swiftlint:disable file_length
 import XCTest
 import SwiftyStoreKit
 
@@ -108,7 +109,7 @@ extension VerifyPurchaseResult: Equatable {
     }
 }
 
-// swiftlint: disable file_length
+// swiftlint:disable type_body_length
 class InAppReceiptTests: XCTestCase {
 
     // MARK: Verify Purchase

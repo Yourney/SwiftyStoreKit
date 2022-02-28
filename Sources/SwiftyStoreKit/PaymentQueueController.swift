@@ -211,8 +211,7 @@ class PaymentQueueController: NSObject, SKPaymentTransactionObserver {
     
     var shouldAddStorePaymentHandler: ShouldAddStorePaymentHandler?
     var updatedDownloadsHandler: UpdatedDownloadsHandler?
-    
-    
+        
     // MARK: - SKPaymentTransactionObserver
     
     func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
